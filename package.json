@@ -1,0 +1,13 @@
+{
+  "name": "test",
+  "scripts": {
+    "start": "./node_modules/.bin/webpack -d --config webpack.config.js --watch & ./node_modules/.bin/webpack-dev-server --config webpack.config.js --colors --progress --hot --inline --content-base ./build"
+  },
+  "devDependencies": {
+    "babel-loader": "^5.3.3",
+    "file-loader": "^0.8.4",
+    "history": "^1.13.1",
+    "webpack": "^1.12.4",
+    "webpack-dev-server": "^1.12.1"
+  }
+}
